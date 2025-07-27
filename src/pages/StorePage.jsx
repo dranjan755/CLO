@@ -9,11 +9,11 @@ import styled from 'styled-components';
 import Header from '../components/Header';
 
 const PageWrapper = styled.div`
-  padding: 0; /* Header remains full width with no padding */
+  padding: 0; 
 `;
 
 const ContentWrapper = styled.div`
-  padding: 10px; /* Everything below header gets 10px padding */
+  padding: 10px; 
 `;
 const FilterSection = styled.div`
   background: #000000;
@@ -25,7 +25,7 @@ const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  padding: 10px 0; /* Slight spacing inside grid */
+  padding: 10px 0; 
 
   @media (max-width: 1200px) {
     grid-template-columns: repeat(3, 1fr);

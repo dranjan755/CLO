@@ -9,8 +9,8 @@ const Input = styled.input`
   border: 1px solid ${({ theme }) => theme.colors.border};
   border-radius: 4px;
   font-size: 1rem;
-  background-color: #000000; /* Jet black background */
-  color: #ffffff; /* Light text color */
+  background-color: #000000; 
+  color: #ffffff; 
 
   &:focus {
     border-color: ${({ theme }) => theme.colors.accent};
@@ -18,7 +18,7 @@ const Input = styled.input`
   }
 
   &::placeholder {
-    color: #888888; /* Light gray placeholder */
+    color: #888888; 
   }
 `;
 
